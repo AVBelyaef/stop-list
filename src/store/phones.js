@@ -70,7 +70,7 @@ export default {
         console.log('getPhoneByPhone', e.message);
       }
     },
-g
+
     changeSearch({ commit }, value){
       commit('setSearch', value);
     }
